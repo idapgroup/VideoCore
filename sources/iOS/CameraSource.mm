@@ -247,6 +247,7 @@ namespace videocore { namespace iOS {
             }
             
             reorientCamera();
+            [writer() flipCamera];
         }];
     }
     

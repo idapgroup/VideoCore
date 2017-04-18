@@ -57,4 +57,6 @@
 
 - (void)encodeAudioBuffer:(CMSampleBufferRef)sampleBuffer;
 
+- (void)flipCamera;
+
 @end
